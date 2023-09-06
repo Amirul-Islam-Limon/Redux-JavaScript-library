@@ -5,7 +5,7 @@ const Counter = () => {
     const {count} = useSelector((state) => state.counter)
     const dispatch = useDispatch()
 
-    console.log(count);
+    // console.log(count);
     return (
         <div>
             <button onClick={()=>dispatch(incrementBy5(5))}>Increment 5</button><br />
